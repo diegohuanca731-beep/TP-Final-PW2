@@ -1,0 +1,76 @@
+[03:01:23] [INFO] SELECT * FROM evento LIMIT 1
+[03:01:34] [INFO] SELECT id, usuario FROM usuarios WHERE usuario = 'facu' AND password = '81dc9bdb52d04dc20036dbd8313ed055'
+[03:01:34] [INFO] SELECT * FROM evento LIMIT 1
+[03:01:42] [INFO] SELECT * 
+        FROM entradas_messi.lugares 
+        WHERE disponible = 1 ORDER BY precio DESC
+[03:01:53] [INFO] SELECT * FROM lugares WHERE id = 8 AND disponible = 1
+[03:02:07] [INFO] SELECT * FROM lugares WHERE id = 8 AND disponible = 1
+[03:02:13] [INFO] SELECT reservas.*, lugares.sector, lugares.precio
+                  FROM reservas
+                  INNER JOIN lugares ON reservas.lugar_id = lugares.id
+                  ORDER BY reservas.fecha_reserva DESC
+[03:02:22] [INFO] SELECT * 
+        FROM entradas_messi.lugares 
+        WHERE disponible = 1 ORDER BY precio DESC
+[03:02:25] [INFO] SELECT * FROM evento LIMIT 1
+[03:02:27] [INFO] SELECT * FROM evento LIMIT 1
+[03:02:32] [INFO] SELECT * FROM evento LIMIT 1
+[03:02:39] [INFO] SELECT id, usuario FROM usuarios WHERE usuario = 'facu' AND password = '81dc9bdb52d04dc20036dbd8313ed055'
+[03:02:39] [INFO] SELECT * FROM evento LIMIT 1
+[03:02:43] [INFO] SELECT reservas.*, lugares.sector, lugares.precio
+                  FROM reservas
+                  INNER JOIN lugares ON reservas.lugar_id = lugares.id
+                  ORDER BY reservas.fecha_reserva DESC
+[03:02:45] [INFO] SELECT * 
+        FROM entradas_messi.lugares 
+        WHERE disponible = 1 ORDER BY precio DESC
+[03:02:50] [INFO] SELECT * FROM lugares WHERE id = 5 AND disponible = 1
+[03:02:59] [INFO] SELECT * FROM lugares WHERE id = 5 AND disponible = 1
+[03:03:58] [INFO] INSERT INTO reservas (lugar_id, nombre, apellido, dni, email, telefono)
+                    VALUES (0, '', '', '', '', '')
+[03:04:14] [INFO] SELECT * FROM lugares WHERE id = 8 AND disponible = 1
+[03:04:22] [INFO] SELECT * FROM lugares WHERE id = 8 AND disponible = 1
+[03:04:30] [INFO] SELECT * 
+        FROM entradas_messi.lugares 
+        WHERE disponible = 1 ORDER BY precio DESC
+[03:04:32] [INFO] SELECT * FROM lugares WHERE id = 9 AND disponible = 1
+[03:04:46] [INFO] SELECT * FROM lugares WHERE id = 9 AND disponible = 1
+[03:17:57] [INFO] SELECT * FROM evento LIMIT 1
+[03:18:00] [INFO] SELECT * FROM evento LIMIT 1
+[03:18:54] [INFO] SELECT * FROM evento LIMIT 1
+[03:18:57] [INFO] SELECT * FROM evento LIMIT 1
+[03:19:00] [INFO] SELECT * FROM evento LIMIT 1
+[03:19:02] [INFO] SELECT * FROM evento LIMIT 1
+[03:19:05] [INFO] SELECT * FROM evento LIMIT 1
+[03:47:22] [INFO] SELECT * FROM evento LIMIT 1
+[03:47:27] [INFO] SELECT id, usuario FROM usuarios WHERE usuario = 'd' AND password = '8277e0910d750195b448797616e091ad'
+[03:47:27] [INFO] SELECT * FROM evento LIMIT 1
+[04:06:04] [INFO] SELECT * FROM evento LIMIT 1
+[04:06:12] [INFO] SELECT id, usuario FROM usuarios WHERE usuario = 'facu' AND password = '81dc9bdb52d04dc20036dbd8313ed055'
+[04:06:12] [INFO] SELECT * FROM evento LIMIT 1
+[04:06:35] [INFO] SELECT id, usuario FROM usuarios WHERE usuario = 'facu' AND password = '81dc9bdb52d04dc20036dbd8313ed055'
+[04:06:35] [INFO] SELECT * FROM evento LIMIT 1
+[04:06:41] [INFO] SELECT * FROM evento LIMIT 1
+[04:07:06] [INFO] SELECT * FROM evento LIMIT 1
+[04:07:31] [INFO] SELECT * FROM evento LIMIT 1
+[04:20:41] [INFO] SELECT * FROM evento LIMIT 1
+[04:20:42] [INFO] SELECT * FROM evento LIMIT 1
+[04:22:09] [INFO] SELECT * FROM evento LIMIT 1
+[04:22:12] [INFO] SELECT * FROM evento LIMIT 1
+[04:23:32] [INFO] SELECT * FROM evento LIMIT 1
+[04:23:59] [INFO] SELECT * FROM evento LIMIT 1
+[04:24:06] [INFO] SELECT id, usuario FROM usuarios WHERE usuario = 'facu' AND password = '81dc9bdb52d04dc20036dbd8313ed055'
+[04:24:06] [INFO] SELECT * FROM evento LIMIT 1
+[04:24:13] [INFO] SELECT * FROM evento LIMIT 1
+[04:24:16] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:31] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:33] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:35] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:36] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:37] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:38] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:38] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:39] [INFO] SELECT * FROM evento LIMIT 1
+[04:27:40] [INFO] SELECT * FROM evento LIMIT 1
+[04:32:54] [INFO] SELECT * FROM evento LIMIT 1
