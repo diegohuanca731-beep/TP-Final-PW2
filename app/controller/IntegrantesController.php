@@ -14,15 +14,14 @@ class IntegrantesController
 
     public function viewIntegrantes()
     {
-        $data = [
-            "nombre_equipo" => "Grupo PW2",
-            "integrantes" => [
-                ["nombre" => "Diego"],
-                ["nombre" => "Edson"],
-                ["nombre" => "Agustin"],
-                ["nombre" => "Mauricio"],
-                ["nombre" => "Lucas"]
-            ]
+
+        $data["nombre_equipo"] = "Grupo PW2";
+        $data["integrantes"] = [
+            ["nombre" => "Diego"],
+            ["nombre" => "Edson"],
+            ["nombre" => "Agustin"],
+            ["nombre" => "Mauricio"],
+            ["nombre" => "Lucas"]
         ];
 
         $this->render->renderiza("integrantes", $data);
